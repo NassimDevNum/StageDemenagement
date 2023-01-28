@@ -1,0 +1,391 @@
+
+header
+{
+    background: rgba(154, 100, 75, 0.5);
+    font-size: 25px;
+    
+}
+/* nav bar*/
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #000000;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav_cont{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  margin: 0px 0 -0px 10px;
+}
+img{
+    width: 100px;
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center;
+}
+.bg-light
+{
+  --bs-bg-opacity: 0;
+}
+/* --------------------------*/
+.col-md-5
+{
+  background-color:#DAC1A6
+}
+/* titre h2  */
+h2.titre_session
+{
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color:#825144;
+}
+button.btn_tel
+{
+    color:#fff;
+    background: #825144;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: large;
+}
+button.btn_devis
+{
+    color:#fff;
+    background: #825144;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 20%;
+    position: relative;
+    top: 9em;
+}
+button.btn_devis_presen
+{
+    color:#fff;
+    background: #825144;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 20%;
+    position: relative;
+    
+}
+button.btn_nous
+{
+    color:#fff;
+    background: #825144;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 20%;
+}
+
+/*----------------*/
+
+.souligne{
+  width: 100px;
+  height: 2px;
+  background: #825144;
+  margin: 0 auto;
+}
+.souligne_serv{
+  width: 100px;
+  height: 2px;
+  background: #ffffff;
+  margin: 0 auto;
+}
+#devisAccueil{
+    background-image: url(../images/carton_simple_redim2.jpg);
+    background-repeat:no-repeat;
+    height:44em;
+}
+#devisAccueil h1
+{
+  font-size: 15px;
+  margin-left: 20%;
+  position: relative;
+  top: 40px;
+}
+#devisAccueil h2{
+  font-size: 50px;
+  text-transform: uppercase; 
+  margin-left: 20%;
+  position: relative;
+  top: 2em;
+  letter-spacing: 2px;
+}
+
+#devisAccueil p{
+  font-size: 15px;
+  text-transform: uppercase;
+  /*font-size:800; */
+  margin-left: 20%;
+  position: relative;
+  top: 6em;
+}
+#devisAccueil p.slogan{
+  font-size: 10px;
+  text-transform: uppercase;
+  /*font-size:800; */
+  margin-left: 20%;
+  position: relative;
+  top: 30em;
+}
+/*  les services */
+#LesServices
+{
+  background-color: #DAC1A6;
+}
+#bon_a_savoir
+{
+  background-color: #DAC1A6;  
+  margin-bottom: -65px;
+}
+/* qui sommes nous */
+body #qui_sommes_nous
+{
+  width: 100%;
+  background-position: center;
+  height: 50%;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ), url(../images/carton_simple_redim.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body #qui_sommes_nous p
+{
+  margin-left: 20%;
+  margin-right: 20% ;
+  color: #fff;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+p.paragraphe_entreprise
+{ 
+  color: #fff;
+}
+body #qui_sommes_nous .col-md-6.float-md-end.mb-3.ms-md-3
+{
+  margin-right: 15%;
+  margin-left: 15%;
+  width: auto;
+  height: auto;
+}
+
+#bon_a_savoir .row
+{
+  text-align: center;
+  margin-top: 3em;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+
+/* footer */
+footer{
+  bottom: 0px;
+  width: 100%;
+  color: #d9d9d9;
+  background: #9A644B;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin:20px 0 0 0;
+}
+
+
+/* page des services */
+.col-md-7
+{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.col-md-7.order-md-2
+{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.col-md-5.order-md-1
+{
+  margin-left:150px ;
+}
+.row.featurette
+{
+  margin: 20px 0 0 0;
+}
+
+/* page qui sommes nous*/
+.cont_entreprise{
+  display: flex;
+  margin: 100px;
+}
+
+#lieu_de_travail
+{
+  background: #DAC1A6;
+}
+.dif_adress{
+  text-align: center;
+}
+#lieu_de_travail .lieu ul
+{
+list-style-type: none;
+}
+.lieu{
+  display: flex;
+  justify-content: center;
+}
+.clearfix
+{
+    padding: 25px;
+}
+/* Page devis */
+.container .row {
+  justify-content: space-around;
+}
+.col-sm-9
+{
+  background-color: #DAC1A6;
+  border-radius: 9px;
+  width: auto;
+  height: 500px;
+}
+.col-sm-3
+{
+  background-color: antiquewhite;
+  border-radius: 9px;
+  width: auto;
+}
+/*décale les div*/
+.num_joint
+{
+  padding: 40px;
+}
+#horaire{
+  background-color: #DAC1A6;
+  text-align: center;
+  height: 250px;
+}
+/*card service*/
+.index-post
+{
+    width:1124px;
+    height: 400px; 
+    overflow: hidden; 
+    margin:auto;
+    display:block; 
+    margin-top:3%;
+}
+.contener{
+    float:left;
+    margin:20px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    width:240px;
+    height:320px;
+    overflow:hidden;
+    background:#fff;
+    border-radius:5px;
+    box-shadow:0 0 3px#00000073;
+    transition:all 0.3s;
+}
+.contener:hover{
+    transform: translateY(-6px);
+    box-shadow:0 11px 14px rgb(0 0 0/ 25%),0 8px 20px rgb(0 0 0/10%);
+}
+.image-contener{
+    display:block;
+    width:100%;
+    height:140px;
+    overflow:hidden;
+}
+.image-contener img{
+    width:100%;
+}
+.meta-contener{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    height:110px;
+    padding:10px 20px;
+}
+.meta-contener .title
+{
+    padding:0;
+    margin:10px 0;
+    font-size:15px;
+    color:#9A644B;
+}
+.meta-contener .desc{
+    font-size:13px;
+    text-align:center;
+    color:#373737;
+}
+.button-contener{
+    display:flex;
+    align-items:center;
+    width:80%;
+    text-align:center;
+    height:40px;
+}
+.button-contener .button
+{
+    width:100%;
+    padding:6px 0;
+    text-decoration:none;
+    background:linear-gradient(125deg, #DAC2A7 0%,#9E6D56 60%);
+    color:#fff;
+    border-radius:5px;
+    font-size:14px;
+    transition:all 0.3s;
+}
+.button-contener .button:hover{
+    padding-left:15px;
+}
+
+
+@media screen and (max-width: 1125px){
+    .index-post{
+        width: 562px; height: 728px;
+    }
+}
+@media screen and (max-width: 562px){
+    .index-post{
+        width: 281px; height: 1492px;
+    }
+}
